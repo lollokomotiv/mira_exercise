@@ -1,4 +1,4 @@
-# DATA SCIENCE & ENGINEERING ENTRY TEST — README
+# DATA SCIENCE & ENGINEERING EXERCISE — README
 
 Questo file spiega la struttura del progetto, come allestire l’ambiente, come eseguire lo script di orchestrazione, e quali assunzioni minime servono per riprodurre tutto. I report tecnici e narrativi sono in `docs/`:
 - `docs/README_DATAENG.md` (data model e pipeline dati)
