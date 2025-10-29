@@ -1,5 +1,7 @@
 # REPORT_FUZZY_LOGIC
 
+- **Introduzione**: Transfermarkt espone per ogni calciatore i propri identificativi, nome completo, club attuale, cittadinanza e ruolo ufficiale; StatsBomb fornisce player_id, nome, squadra/nazionale registrata e posizione primaria rilevata sul campo. In questo scenario questi dataset condividono in modo stabile solo il nome: le date sono spesso mancanti o divergenti, club e federazioni hanno alias multipli. Di conseguenza la pipeline incentra il matching sui nomi e sulle loro varianti, applicando bonus controllati per sopperire alle informazioni non utilizzabili.
+
 - **Obiettivo**: `src/data_engineering/build_xref_all.py` costruisce tabelle di cross-reference tra giocatori e club provenienti da StatsBomb e Transfermarkt, usando fuzzy matching controllato per ridurre gli errori di associazione.
 
 - **Preparazione dati**:
