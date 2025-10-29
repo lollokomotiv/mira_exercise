@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run pipeline main",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/pipeline/main.py",
+      "console": "integratedTerminal",
+      "env": {
+        "DB_URL": "sqlite:///data/db/euro24.sqlite"
+      }
+    }
+  ]
+}

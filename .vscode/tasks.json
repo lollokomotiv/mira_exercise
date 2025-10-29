@@ -1,0 +1,10 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    { "label": "Create venv", "type": "shell", "command": "python3 -m venv .venv" },
+    { "label": "Install deps", "type": "shell", "command": ". .venv/bin/activate && pip install -r requirements.txt" },
+    { "label": "Run pipeline", "type": "shell", "command": "bash run.sh" },
+    { "label": "Lint", "type": "shell", "command": ". .venv/bin/activate && ruff check src" },
+    { "label": "Format", "type": "shell", "command": ". .venv/bin/activate && black src" }
+  ]
+}

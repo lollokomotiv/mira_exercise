@@ -1,0 +1,12 @@
+{
+    "python.defaultInterpreterPath": ".venv/bin/python",
+    "python.analysis.typeCheckingMode": "basic",
+    "editor.formatOnSave": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "ruff.lint.args": [
+        "--select=E,F,W,C90,UP",
+        "--line-length=100"
+    ]
+}

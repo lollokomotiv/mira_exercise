@@ -1,0 +1,12 @@
+# Python virtual environments
+.venv/
+
+# Generated data artifacts
+data/
+artifacts/
+
+# Bytecode cache
+__pycache__/
+
+# macOS metadata
+.DS_Store
