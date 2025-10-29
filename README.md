@@ -84,4 +84,4 @@ python -m src.model.predict_euro24 \
 
 ## Assunzioni e note
 - Python 3.12; non sono richieste altre dipendenze di sistema oltre a quelle installate dal `requirements.txt`.
-- Alcuni grafici EDA sono HTML interattivi e vanno caricati su browser per una migliore analisi.
+- Alcuni grafici EDA sono HTML interattivi e vanno caricati sul browser per una migliore analisi.
